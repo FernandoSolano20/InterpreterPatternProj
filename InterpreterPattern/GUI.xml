@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<namespaces default = 'javax.swing' u = 'Utils'>
+	<JFrame Title = 'Interpreted Window' Size = '200,100' >
+		<JLabel Text = 'Some Test Label' AlignmentX = '0.5'/>
+		<JTextField AlignmentX = '0.5'/>
+		<JButton Text = 'Button'/>
+		<JRadioButton Text = 'A radio3 button!'/>
+		<JComboBox >
+			<u.MyItem Name = 'option 1' />
+			<u.MyItem Name = 'option 2' />
+			<u.MyItem Name = 'option 3' />
+			<u.MyItem Name = 'Another one' />
+			<u.MyItem Name = 'option 4' />
+		</JComboBox>		
+	</JFrame>
+</namespaces>
